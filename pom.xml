@@ -89,6 +89,9 @@
     </dependencyManagement>
 
     <build>
+        <!--
+        <finalName>你的工程名</finalName>（单一工程时添加）
+        -->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -100,5 +103,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
