@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <!-- 这里添加，注意不是jar或war -->
     <packaging>pom</packaging>
+
     <modules>
         <module>cloud-provider-payment8001</module>
     </modules>
