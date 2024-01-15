@@ -1,7 +1,6 @@
-package com.imooc.payment.entities.dao;
+package com.imooc.payment.dao;
 
-import com.imooc.payment.entities.Payment;
-
+import com.imooc.common.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

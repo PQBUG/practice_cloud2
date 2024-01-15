@@ -13,5 +13,5 @@ spring:
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  type-aliases-package: com.imooc.payment.entities
+  type-aliases-package: com.imooc.common.entities
 

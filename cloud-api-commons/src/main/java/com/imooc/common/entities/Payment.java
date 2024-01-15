@@ -1,4 +1,4 @@
-package com.imooc.payment.entities;
+package com.imooc.common.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

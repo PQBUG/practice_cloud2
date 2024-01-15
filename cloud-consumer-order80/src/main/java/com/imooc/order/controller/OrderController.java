@@ -1,7 +1,8 @@
 package com.imooc.order.controller;
 
-import com.imooc.order.entities.CommonResult;
-import com.imooc.order.entities.Payment;
+
+import com.imooc.common.entities.CommonResult;
+import com.imooc.common.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

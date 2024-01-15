@@ -1,7 +1,8 @@
 package com.imooc.payment.controller;
 
-import com.imooc.payment.entities.CommonResult;
-import com.imooc.payment.entities.Payment;
+
+import com.imooc.common.entities.CommonResult;
+import com.imooc.common.entities.Payment;
 import com.imooc.payment.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.Resource;
 
 /**
  * @ClassName PaymentController

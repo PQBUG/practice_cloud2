@@ -1,12 +1,10 @@
 package com.imooc.payment.service.impl;
 
-import com.imooc.payment.entities.Payment;
-import com.imooc.payment.entities.dao.PaymentDao;
+import com.imooc.common.entities.Payment;
+import com.imooc.payment.dao.PaymentDao;
 import com.imooc.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 
 /**
  * @ClassName PaymentServiceImpl
