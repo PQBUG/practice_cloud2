@@ -6,16 +6,16 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * @ClassName PaymentApplication001
- * @Description TODO 主启动类
+ * @ClassName PaymentApplication8002
+ * @Description TODO
  * @Author hongy
- * @Date 2024/1/15 14:48
+ * @Date 2024/1/15 23:56
  **/
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class PaymentApplication8001 {
+public class PaymentApplication8002 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8001.class, args);
+        SpringApplication.run(PaymentApplication8002.class, args);
     }
 }
