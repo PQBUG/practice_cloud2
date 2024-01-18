@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0641cc36-7726-441e-b1c0-c8a698f2bcab" name="Changes" comment="eureka cluster">
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/imooc/order/OrderConsulMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider8006/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider8006/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider8006/src/main/java/com/imooc/consul/ConsulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider8006/src/main/java/com/imooc/consul/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider8006/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="0641cc36-7726-441e-b1c0-c8a698f2bcab" name="Changes" comment="Consul">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/imooc/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/imooc/order/controller/OrderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +183,7 @@
       <updated>1705299704473</updated>
       <workItem from="1705299705592" duration="8250000" />
       <workItem from="1705334101993" duration="1671000" />
-      <workItem from="1705469274376" duration="1576000" />
+      <workItem from="1705469274376" duration="4305000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <option name="closed" value="true" />
@@ -260,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705490222956</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Consul">
+      <option name="closed" value="true" />
+      <created>1705496492166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705496492166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +270,8 @@
     <MESSAGE value="order" />
     <MESSAGE value="common" />
     <MESSAGE value="eureka cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="eureka cluster" />
+    <MESSAGE value="Consul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consul" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
